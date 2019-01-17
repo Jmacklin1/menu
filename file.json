@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+</title>
+</head>
+
+<body> 
+<script>
+    var restaraunt = {
+        "name": "Maison Harlem",
+        "add": "341 Saint Nicholas Avenue",
+        "phone": "212 222-9224",
+        "menu": {
+                "item": "MERGUEZ DE BARBES",
+                "price": 16,
+                "description": "Grilled spicy homemade lamb sausages with French fries",
+                "allergies": [],
+                "diet": ["organic"]
+            }, {
+                "item": "DEMI POULET",
+                "price": 21.50,
+                "description": "EMI POULET",
+                "allergies": [],
+                "diet": ["organic"]
+            }, {
+                "item": "DUCK LEG CONFIT",
+                "price": 26.5,
+                "description": "Slow cooked then crisped with orange cognac sauce & cauliflower gratin",
+                "allergies": [],
+                "diet": ["organic"]
+            }, {
+                "item": "BLACK ANGUS HANGER STEAK",
+                "price": 29,
+                "description": "With red wine sauce & potato gratin",
+                "allergies": [],
+                "diet": ["organic"]
+            }, {
+                "item": "GRILLED NEW YORK SHELL STEAK",
+                "price": 32,
+                "description": "With herb butter, French fries & organic salad",
+                "allergies": ["dairy"],
+                "diet": ["organic"]
+            }
+        
+    }
+restaraunt = JSON.stringify(restaraunt), menu = JSON.stringify()
+
+console.log(restaraunt.menu.diet);
+
+
+
+</script>
+
+
+</body>
+
+</html>
